@@ -5,7 +5,9 @@
   "author": "\"Guga Villar\" <\"grsv.21@gmail.com\">",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --exit-child src/server.ts"
+    "dev": "ts-node-dev --exit-child src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "@prisma/client": "3.3.0",
